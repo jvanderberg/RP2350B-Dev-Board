@@ -53,6 +53,6 @@ These were produced with the 'Fabrication Toolkit' plugin, which you will need t
 
 ## Source Designs
 
-Thie design borrows from https://pro.easyeda.com/editor#id=a0a21c97b13d436db5579fc2a8b1625d, which is an RP2350A design. I adapted it for the 2350B, but it shares most of the schematic, if not the PCB layout.
+Thie design borrows from https://pro.easyeda.com/editor#id=a0a21c97b13d436db5579fc2a8b1625d, which is an RP2350A design. I adapted it for the RP2350B, but it shares most of the schematic, if not the PCB layout.
 
 I also looked at the RP2350B reference designs available here: https://datasheets.raspberrypi.com/rp2350/Minimal-KiCAD.zip
