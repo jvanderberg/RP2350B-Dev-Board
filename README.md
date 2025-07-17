@@ -4,6 +4,8 @@ This is an RP2350B Dev board that breaks out all 48 GPIO pins.
 
 It follows the original footprint of the RP2040 dev board, but adds 10 pins on each side.
 
+It is not pin compatible with the original RP2040, though a version that shares the same pinout, at least for the first 20 pins on each side would be interesting.
+
 Pinout:
 
 ```
@@ -46,3 +48,11 @@ The production files for JLCPCB are in the 'production' directory.
 RP2350_Dev_board.zip is the zipped Gerber files.
 
 bom.csv and positions.csv are the Bill of materials and placements files respectively.
+
+These were produced with the 'Fabrication Toolkit' plugin, which you will need to install if you need to regenerate them.
+
+## Source Designs
+
+Thie design borrows from https://pro.easyeda.com/editor#id=a0a21c97b13d436db5579fc2a8b1625d, which is an RP2350A design. I adapted it for the 2350B, but it shares most of the schematic, if not the PCB layout.
+
+I also looked at the RP2350B reference designs available here: https://datasheets.raspberrypi.com/rp2350/Minimal-KiCAD.zip
